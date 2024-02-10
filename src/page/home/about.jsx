@@ -11,22 +11,22 @@ const About = () => {
                         <p>un apasionado del desarrollo de software conocido entre mis amigos como Mixa. Considero la programación como un arte y encuentro en ella mi máxima fascinación. <br /> <br />
                             Antes de sumergirme en el mundo del desarrollo, me destacaba como artista de hiperrealismo, un trasfondo que me ha conferido una perspectiva detallista y creativa.</p>
                         <div className="links">
-                            <a href="">
+                            {/* <a href="https://github.com/mixael442" target="_blank">
                                     <i className="fa-brands fa-github"></i>
                                     <p>github</p>
                                 
-                            </a>
-                            <a href="">                    
+                            </a> */}
+                            <a href="https://www.linkedin.com/in/misael-los-santos-011b00220/" target="_blank">                    
                                     <i className="fa-brands fa-linkedin"></i>
                                     <p>linkedin</p>
                                 
                             </a>
-                            <a href="">
+                            <a href="https://www.instagram.com/mix_art21/" target="_blank">
                                     <i className="fa-brands fa-instagram"></i>
                                     <p>instagram</p>
                                 
                             </a>
-                            <a href="">
+                            <a href="mailto:misaelossantos7@gmail.com" target="_blank">
                                     <i className="fa-solid fa-envelope"></i>
                                     <p>email</p>
                                 

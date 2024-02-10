@@ -2,9 +2,9 @@
 
 const Hero = () => {
     return (
-        <section className="hero" id="hero">
+        <section className="hero" id="home">
             <div className="layer" />
-            <video src="../../../assets/bkg-hero.mp4" autoPlay loop/>
+            <video src="../../../assets/bkg-hero.mp4" muted autoPlay loop/>
             <div className="container">
                 <div className="contain">
                     <div className="title">
@@ -14,7 +14,7 @@ const Hero = () => {
                     </div>
                     <p>Mas de <b>1+ año</b> de experiencia como desarrollador web, desde <b>Argentina</b></p>
                     <h2>Front End Developer</h2>
-                    <button className="btn">Download CV</button>
+                    <a className="btn" download href="../assets/others/misael-los-santos.pdf">Download CV</a>
                 </div>
             </div>
         </section>
