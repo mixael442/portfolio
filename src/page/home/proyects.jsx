@@ -14,10 +14,12 @@ const Proyects = () => {
                 <h2>Projects</h2>
                 <div className="contain">
                     <div className="proyect">
-                        <div className="info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                        <div className="img-contain">
+                            <div className="info">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                            </div>
+                            <img src="../assets/images/chatlatino.png" alt="img-proyect" />
                         </div>
-                        <img src="../assets/images/chatlatino.png" alt="img-proyect" />
                         <h3>ChatLatino</h3>
                         <p><span>aplicacion web PWA, red social para aprender español</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
@@ -27,10 +29,12 @@ const Proyects = () => {
                         </div>
                     </div>
                     <div className="proyect">
-                        <div className="info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                        <div className="img-contain">               
+                            <div className="info">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                            </div>
+                            <img src="../assets/images/offensive.png" alt="img-proyect" />
                         </div>
-                        <img src="../assets/images/offensive.png" alt="img-proyect" />
                         <h3>Offensive Security</h3>
                         <p><span>Pagina web para la empresa Offensive Security</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
@@ -40,10 +44,12 @@ const Proyects = () => {
                         </div>
                     </div>
                     <div className="proyect">
-                        <div className="info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                        <div className="img-contain">               
+                            <div className="info">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                            </div>
+                            <img src="../assets/images/codefend.png" alt="img-proyect" />
                         </div>
-                        <img src="../assets/images/codefend.png" alt="img-proyect" />
                         <h3>Codefend</h3>
                         <p><span>Pagina Web para la empresa Codefend</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
