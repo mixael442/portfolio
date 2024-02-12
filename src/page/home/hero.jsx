@@ -14,7 +14,7 @@ const Hero = () => {
                     </div>
                     <p>Mas de <b>1+ año</b> de experiencia como desarrollador web, desde <b>Argentina</b></p>
                     <h2>Front End Developer</h2>
-                    <a className="btn" download href="../assets/others/misael-los-santos.pdf">Download CV</a>
+                    <a className="btn" download href="../assets/others/misael-los-santos-1.pdf">Download CV</a>
                 </div>
             </div>
         </section>

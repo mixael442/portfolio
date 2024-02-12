@@ -26,29 +26,23 @@ const Trayectory = () => {
                         <h3><i className="fa-solid fa-graduation-cap"></i>Education</h3>
                         <ul>
                             <li>
-                                <div className="circle" />
-                                <span><i className="fa-regular fa-calendar-days"></i> <b>2012-2018</b></span>
-                                <h4>Bachiller Ciencias Sociales</h4>
-                                <p>Escuela Edgar Romero Maciel</p>
-                            </li>
-                            <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(0)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>graduado como upperintermidiate B2, <br />
-                                   instagram: <a href="https://www.instagram.com/cultural.inglesa.corrientes/?hl=es">"https://www.instagram.com/cultural.inglesa.corrientes/?hl=es"</a><br />
-                                   <img src="#" alt="certificate" />
-                                </p>
+                                <p>tecnologias aprendidas: tipescript, angular, nodeJS, Dart, Flutter. <br />
+                                   duración: 6 meses.
+                                     </p>
+
                                 </div>
-                                <span><i className="fa-regular fa-calendar-days"></i> <b>2012-2018</b></span>
-                                <h4>academy</h4>
-                                <p>cultural inglesa</p>
+                                <span><i className="fa-regular fa-calendar-days"></i> <b>2022-2023</b></span>
+                                <h4>Pasantia Full Stack</h4>
+                                <p>Emser</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(0)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(1)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>modulo 1°: html, css, javascript. 3 meses <br />
-                                   modulo 2°: typescript, angular, nodeJs, express, mongoDB. 9 meses. incompleto, 5 mes
+                                <p>modulo 1°/3 meses: html, css, javascript. <br />
+                                   modulo 2°/9 mes - incompleto : typescript, angular, nodeJs, express, mongoDB. 9 meses. 
                                 </p>
 
                                 </div>
@@ -60,16 +54,25 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(2)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>tecnologias aprendidas: tipescript, angular, nodeJS, Dart, Flutter. <br />
-                                   duracion: 6 meses.
-                                     </p>
-
+                                <p>graduado como upperintermidiate B2, <br />
+                                   instagram: <a href="https://www.instagram.com/cultural.inglesa.corrientes/?hl=es">"https://www.instagram.com/cultural.inglesa.corrientes/?hl=es"</a><br />
+                                   <img src="#" alt="certificate" />
+                                </p>
                                 </div>
-                                <span><i className="fa-regular fa-calendar-days"></i> <b>2022-2023</b></span>
-                                <h4>Pasantia Full Stack</h4>
-                                <p>Emser</p>
+                                <span><i className="fa-regular fa-calendar-days"></i> <b>2012-2018</b></span>
+                                <h4>academy</h4>
+                                <p>cultural inglesa</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(2)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
+                            <li>
+                                <div className="circle" />
+                                <span><i className="fa-regular fa-calendar-days"></i> <b>2012-2018</b></span>
+                                <h4>Bachiller Ciencias Sociales</h4>
+                                <p>Escuela Edgar Romero Maciel</p>
+                            </li>
+                           
+                            
+                            
                         </ul>
                     </div>
 
@@ -79,46 +82,47 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(3)}/>
                                 <div className="info-trayectory fade-out">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
+                                    <p>Actualmente desarrollando la web oficial de la empresa Codefend y tambien desarrollando pequeñas cosas para la aplicacion web que ofrecen como servicio</p>
                                 </div>
-                                <span><i className="fa-regular fa-calendar-days"></i> <b>2022</b></span>
-                                <h4>Web Developer</h4>
-                                <p>SaludLab</p>
+                                <span><i className="fa-regular fa-calendar-days"></i> <b>2023- currently</b></span>
+                                <h4>Web Designer & Front End</h4>
+                                <p>Codefend</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(3)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(4)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
-
+                                    <p>Actualmente Desarrollando y Diseñando el sitio web de la empresa de ciberseguridad Offensive Security</p>
                                 </div>
-                                <span><i className="fa-regular fa-calendar-days"></i> <b>2023</b></span>
-                                <h4>Front End Developer</h4>
-                                <p>De tu Casa a Las Naciones</p>
+                                <span><i className="fa-regular fa-calendar-days"></i> <b>2023-currently</b></span>
+                                <h4>Web Developer</h4>
+                                <p>Offensive Security</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(4)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(5)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
-
+                                    <p>Desarrollé junto con un equipo la aplicacion Web ChatLatino para la fundacion/ONG "De tu Casa Hacia las Naciones" <br />
+                                    pagina oficial: <a href="https://detucasaalasnaciones.com/">https://detucasaalasnaciones.com/</a>
+                                    </p>
                                 </div>
-                                <span><i className="fa-regular fa-calendar-days"></i> <b>2023-currently</b></span>
-                                <h4>Web Developer</h4>
-                                <p>Offensive Security</p>
+                                <span><i className="fa-regular fa-calendar-days"></i> <b>2023</b></span>
+                                <h4>Front End Developer</h4>
+                                <p>De tu Casa a Las Naciones</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(5)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(6)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
-
+                                    <p>Desarrollé como trainee junto con un equipo la pagina oficial de SaludLab</p>
                                 </div>
-                                <span><i className="fa-regular fa-calendar-days"></i> <b>2023- currently</b></span>
-                                <h4>Web Designer & Front End</h4>
-                                <p>Codefend</p>
+                                <span><i className="fa-regular fa-calendar-days"></i> <b>2022</b></span>
+                                <h4>Web Developer</h4>
+                                <p>SaludLab</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(6)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
+
+
                         </ul>
                     </div>
                 </div>
