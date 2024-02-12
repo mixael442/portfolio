@@ -1,8 +1,21 @@
 const Trayectory = () => {
+    // const handleInfoTrayectory = (index) => {
+    //     const info = document.querySelectorAll(".info-trayectory")
+    //     info[index].classList.toggle('show')
+    // }
     const handleInfoTrayectory = (index) => {
-        const info = document.querySelectorAll(".info-trayectory")
-        info[index].classList.toggle('show')
-    }
+        const info = document.querySelectorAll(".info-trayectory");
+        
+        info.forEach((element, i) => {
+          if (i === index) {
+            if (element.classList.contains('fade-out')) {
+              element.classList.replace('fade-out', 'fade-in');
+            } else {
+                element.classList.replace('fade-in', 'fade-out');
+            }
+          }
+        });
+      };
     return (
         <section className="trayectory" id="trayectory">
             <div className="container">
@@ -20,9 +33,11 @@ const Trayectory = () => {
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(0)}/>
-                                <div className="info-trayectory">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
-
+                                <div className="info-trayectory fade-out">
+                                <p>graduado como upperintermidiate B2, <br />
+                                   instagram: <a href="https://www.instagram.com/cultural.inglesa.corrientes/?hl=es">"https://www.instagram.com/cultural.inglesa.corrientes/?hl=es"</a><br />
+                                   <img src="#" alt="certificate" />
+                                </p>
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2012-2018</b></span>
                                 <h4>academy</h4>
@@ -31,8 +46,10 @@ const Trayectory = () => {
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(1)}/>
-                                <div className="info-trayectory">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
+                                <div className="info-trayectory fade-out">
+                                <p>modulo 1°: html, css, javascript. 3 meses <br />
+                                   modulo 2°: typescript, angular, nodeJs, express, mongoDB. 9 meses. incompleto, 5 mes
+                                </p>
 
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2022 - incompleto</b></span>
@@ -42,12 +59,14 @@ const Trayectory = () => {
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(2)}/>
-                                <div className="info-trayectory">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
+                                <div className="info-trayectory fade-out">
+                                <p>tecnologias aprendidas: tipescript, angular, nodeJS, Dart, Flutter. <br />
+                                   duracion: 6 meses.
+                                     </p>
 
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2022-2023</b></span>
-                                <h4>pasantia</h4>
+                                <h4>Pasantia Full Stack</h4>
                                 <p>Emser</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(2)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
@@ -59,7 +78,7 @@ const Trayectory = () => {
                         <ul>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(3)}/>
-                                <div className="info-trayectory">
+                                <div className="info-trayectory fade-out">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2022</b></span>
@@ -69,7 +88,7 @@ const Trayectory = () => {
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(4)}/>
-                                <div className="info-trayectory">
+                                <div className="info-trayectory fade-out">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
 
                                 </div>
@@ -80,7 +99,7 @@ const Trayectory = () => {
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(5)}/>
-                                <div className="info-trayectory">
+                                <div className="info-trayectory fade-out">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
 
                                 </div>
@@ -91,7 +110,7 @@ const Trayectory = () => {
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(6)}/>
-                                <div className="info-trayectory">
+                                <div className="info-trayectory fade-out">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam porro dolores et in itaque, nostrum quas, quibusdam animi sint, veritatis ducimus fugit harum nobis facere quia architecto culpa atque!</p>
 
                                 </div>

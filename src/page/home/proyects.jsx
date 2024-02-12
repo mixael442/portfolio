@@ -20,7 +20,10 @@ const Proyects = () => {
                             </div>
                             <img src="../assets/images/chatlatino.png" alt="img-proyect" />
                         </div>
-                        <h3>ChatLatino</h3>
+                        <div className="subtitle">
+                            <h3>ChatLatino </h3>
+                            <img src="../assets/images/chatlatino.ico" alt="logo" />
+                        </div>
                         <p><span>aplicacion web PWA, red social para aprender español</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">
@@ -35,7 +38,10 @@ const Proyects = () => {
                             </div>
                             <img src="../assets/images/offensive.png" alt="img-proyect" />
                         </div>
-                        <h3>Offensive Security</h3>
+                        <div className="subtitle">
+                            <h3>Offensive Security</h3>
+                            <img src="../assets/images/offensivelogo.png" alt="logo" />
+                        </div>
                         <p><span>Pagina web para la empresa Offensive Security</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">
@@ -50,7 +56,10 @@ const Proyects = () => {
                             </div>
                             <img src="../assets/images/codefend.png" alt="img-proyect" />
                         </div>
-                        <h3>Codefend</h3>
+                        <div className="subtitle">
+                            <h3>Codefend</h3>
+                            <img src="../assets/images/codefendlogo.png" alt="logo" />
+                        </div>
                         <p><span>Pagina Web para la empresa Codefend</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">                          
