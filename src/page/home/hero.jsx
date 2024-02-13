@@ -4,7 +4,10 @@ const Hero = () => {
     return (
         <section className="hero" id="home">
             <div className="layer" />
-            <video src="../../../assets/bkg-hero.mp4" muted autoPlay loop/>
+            <video muted autoPlay loop> 
+                <source src="../../../assets/bkg-hero-mobile.mp4" type="video/mp4" media="(max-width: 600px)" />
+                <source src="../../../assets/bkg-hero.mp4" type="video/mp4" />
+            </video>
             <div className="container">
                 <div className="contain">
                     <div className="title">

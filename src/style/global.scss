@@ -426,6 +426,14 @@ section.proyects {
                         margin-left: -3%;
                         border-radius: var(--border-radius-general);
                         transition: top 0.3s linear;
+                        .images{
+                            display: flex;
+                            gap: 1rem;
+                            img{
+                                width: 3rem;
+                                height: 3rem;
+                            }
+                        }
                     }
                     .active{
                         top: -6% !important;
@@ -459,7 +467,7 @@ section.proyects {
 
 section.about{
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     background-color: var(--color-primary);
     h2 {
         text-align: center;
@@ -512,7 +520,7 @@ section.about{
 
 section.skills{
 
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     background-color: var(--color-primary);
     .container{
         h2{

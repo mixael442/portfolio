@@ -17,6 +17,13 @@ const Proyects = () => {
                         <div className="img-contain">
                             <div className="info">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                                <div className="images">
+                                    <img src="../assets/images/languages/react.png" alt="logo-react" />
+                                    <img src="../assets/images/languages/materialui.png" alt="logo-materialui" />
+                                    <img src="../assets/images/languages/nodejs.png" alt="logo-nodejs" />
+                                    <img src="../assets/images/languages/aws.png" alt="logo-aws" />
+                                    <img src="../assets/images/languages/dynamodb.png" alt="logo-dynamodb" />
+                                </div>
                             </div>
                             <img src="../assets/images/chatlatino.png" alt="img-proyect" />
                         </div>
@@ -35,6 +42,10 @@ const Proyects = () => {
                         <div className="img-contain">               
                             <div className="info">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                                <div className="images">
+                                    <img src="../assets/images/languages/react.png" alt="logo-react" />
+                                    <img src="../assets/images/languages/materialui.png" alt="logo-materialui" />
+                                </div>
                             </div>
                             <img src="../assets/images/offensive.png" alt="img-proyect" />
                         </div>
@@ -53,6 +64,10 @@ const Proyects = () => {
                         <div className="img-contain">               
                             <div className="info">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                                <div className="images">
+                                    <img src="../assets/images/languages/react.png" alt="logo-react" />
+                                    <img src="../assets/images/languages/sass.png" alt="logo-sass" />
+                                </div>
                             </div>
                             <img src="../assets/images/codefend.png" alt="img-proyect" />
                         </div>
