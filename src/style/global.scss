@@ -559,7 +559,7 @@ section.skills{
                 display: flex;
                 gap: 80px;
                 animation: 10s slideleft infinite linear;
-                width: calc((150px * 22) + (80px * 22));
+                width: calc((150px * 26) + (80px * 26));
                 li {
                     width: 150px ;
                     height: 150px ;
@@ -575,7 +575,7 @@ section.skills{
                   transform: translateX(-0%);
                 }
                 to {
-                  transform: translateX(calc((-150px * 11) + (-80px * 11)));
+                  transform: translateX(calc((-150px * 13) + (-80px * 13)));
                 }
               }
             }

@@ -8,8 +8,8 @@ const About = () => {
                     <img src="../assets/images/notebook.jpg" alt="img" />
                     <div className="text">
                         <h3>I'M Misael Los santos </h3>
-                        <p>un apasionado del desarrollo de software conocido entre mis amigos como Mixa. Considero la programación como un arte y encuentro en ella mi máxima fascinación. <br /> <br />
-                            Antes de sumergirme en el mundo del desarrollo, me destacaba como artista de hiperrealismo, un trasfondo que me ha conferido una perspectiva detallista y creativa.</p>
+                        <p>A passionate about software development known among my friends as Mixa. I consider programming as an art and I find my greatest fascination in it. <br /> <br />
+                            Before immersing myself in the world of development, I stood out as a hyperrealism artist, a background that has given me a detailed and creative perspective.</p>
                         <div className="links">
                             {/* <a href="https://github.com/mixael442" target="_blank">
                                     <i className="fa-brands fa-github"></i>

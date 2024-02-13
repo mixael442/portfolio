@@ -28,21 +28,22 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(0)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>tecnologias aprendidas: tipescript, angular, nodeJS, Dart, Flutter. <br />
-                                   duración: 6 meses.
-                                     </p>
+                                <p>Technologies learned: typescript, angular, nodeJS, Dart, Flutter. <br />
+                                   duration: 6 months.
+                                   official website: <a href="https://www.emser.net/">"https://www.emser.net/"</a>
+                                </p>
 
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2022-2023</b></span>
-                                <h4>Pasantia Full Stack</h4>
+                                <h4>Full Stack Internship</h4>
                                 <p>Emser</p>
                                 <button className="btn-small" onClick={()=>handleInfoTrayectory(0)}>more info<i class="fa-solid fa-plus"></i></button>
                             </li>
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(1)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>modulo 1°/3 meses: html, css, javascript. <br />
-                                   modulo 2°/9 mes - incompleto : typescript, angular, nodeJs, express, mongoDB. 9 meses. 
+                                <p>Module 1°/ 3 months: html, css, javascript. <br />
+                                   module 2°/ 9 month - incomplete: typescript, angular, nodeJs, express, mongoDB. 9 months.
                                 </p>
 
                                 </div>
@@ -54,7 +55,7 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(2)}/>
                                 <div className="info-trayectory fade-out">
-                                <p>graduado como upperintermidiate B2, <br />
+                                <p>graduated as Upper Intermediate B2 <br />
                                    instagram: <a href="https://www.instagram.com/cultural.inglesa.corrientes/?hl=es">"https://www.instagram.com/cultural.inglesa.corrientes/?hl=es"</a><br />
                                    <img src="#" alt="certificate" />
                                 </p>
@@ -67,8 +68,8 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" />
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2012-2018</b></span>
-                                <h4>Bachiller Ciencias Sociales</h4>
-                                <p>Escuela Edgar Romero Maciel</p>
+                                <h4>Bachelor of Social Sciences</h4>
+                                <p>School Edgar Romero Maciel</p>
                             </li>
                            
                             
@@ -82,7 +83,7 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(3)}/>
                                 <div className="info-trayectory fade-out">
-                                    <p>Actualmente desarrollando la web oficial de la empresa Codefend y tambien desarrollando pequeñas cosas para la aplicacion web que ofrecen como servicio</p>
+                                    <p>Currently developing the official website of the Codefend company and also developing small things for the web application that they offer as a service</p>
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2023- currently</b></span>
                                 <h4>Web Designer & Front End</h4>
@@ -92,7 +93,7 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(4)}/>
                                 <div className="info-trayectory fade-out">
-                                    <p>Actualmente Desarrollando y Diseñando el sitio web de la empresa de ciberseguridad Offensive Security</p>
+                                    <p>Currently Developing and Designing the website of the cybersecurity company Offensive Security</p>
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2023-currently</b></span>
                                 <h4>Web Developer</h4>
@@ -102,8 +103,8 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(5)}/>
                                 <div className="info-trayectory fade-out">
-                                    <p>Desarrollé junto con un equipo la aplicacion Web ChatLatino para la fundacion/ONG "De tu Casa Hacia las Naciones" <br />
-                                    pagina oficial: <a href="https://detucasaalasnaciones.com/">https://detucasaalasnaciones.com/</a>
+                                    <p>I developed, together with a team, the ChatLatino Web application for the foundation/NGO "From your House to the Nations" <br />
+                                    official website: <a href="https://detucasaalasnaciones.com/">https://detucasaalasnaciones.com/</a>
                                     </p>
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2023</b></span>
@@ -114,8 +115,8 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(6)}/>
                                 <div className="info-trayectory fade-out">
-                                    <p>Desarrollé como trainee junto con un equipo la pagina oficial de SaludLab <br />
-                                    pagina oficial: <a href="http://saludlab.com/">"http://saludlab.com/"</a>
+                                    <p>I developed the official SaludLab page as a trainee together with a team. <br />
+                                    official website: <a href="http://saludlab.com/">"http://saludlab.com/"</a>
 
                                     </p>
                                 </div>

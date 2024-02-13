@@ -16,9 +16,9 @@ const Proyects = () => {
                     <div className="proyect">
                         <div className="img-contain">
                             <div className="info">
-                                <p>el proyecto mas completo que colaboré como front-end siendo uno de los desarrolladores principales. <br />
-                                   lanzado su primera versión donde mas adelante se integrará un sistema de chats, chat grupal, etc.
-                                   Tecnologias que aprendi y use en este proyecto son:
+                                <p>the most complete project that I collaborated on as a front-end, being one of the main developers. <br />
+                                   launched its first version where a chat system, group chat, etc. will later be integrated.
+                                   Technologies that I learned and used in this project are:
                                 </p>
                                 <div className="images">
                                     <img src="../assets/images/languages/react.png" alt="logo-react" />
@@ -34,7 +34,7 @@ const Proyects = () => {
                             <h3>ChatLatino </h3>
                             <img src="../assets/images/chatlatino.ico" alt="logo" />
                         </div>
-                        <p><span>aplicacion web PWA, red social para aprender español</span></p>
+                        <p><span>PWA web application, social network to learn Spanish</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">
                             <a className="btn-small" href="https://dev.chatlatino.net/" target="_blank">view page<i className="fa-regular fa-eye"></i></a>
@@ -44,8 +44,8 @@ const Proyects = () => {
                     <div className="proyect">
                         <div className="img-contain">               
                             <div className="info">
-                                <p>Sitio Web que aun sigue en desarrollo usando tecnologias como "i18n" para la traducción entre el ingles y español <br />
-                                    tecnologias utilizadas:
+                                <p>Website that is still in development using technologies such as "i18n" for translation between English and Spanish <br />
+                                    Used technology:
                                 </p>
                                 <div className="images">
                                     <img src="../assets/images/languages/react.png" alt="logo-react" />
@@ -58,7 +58,7 @@ const Proyects = () => {
                             <h3>Offensive Security</h3>
                             <img src="../assets/images/offensivelogo.png" alt="logo" />
                         </div>
-                        <p><span>Pagina web para la empresa Offensive Security</span></p>
+                        <p><span>Website for the company Offensive Security</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">
                             <a className="btn-small" href="https://offensivesecurityservices.com/" target="_blank">view page<i className="fa-regular fa-eye"></i></a>
@@ -68,8 +68,7 @@ const Proyects = () => {
                     <div className="proyect">
                         <div className="img-contain">               
                             <div className="info">
-                                <p>Sitio web donde estoy desarrollando a partir de un diseño ya proporcionado por la empresa a traves de archivos PSD y Figma pero tambien aportando a la mejora y adaptabilidad del diseño a la web. <br />
-
+                                <p>Website where I am developing from a design already provided by the company through PSD and Figma files but also contributing to the improvement and adaptability of the design to the web. <br />
                                 </p>
                                 <div className="images">
                                     <img src="../assets/images/languages/react.png" alt="logo-react" />
@@ -82,7 +81,7 @@ const Proyects = () => {
                             <h3>Codefend</h3>
                             <img src="../assets/images/codefendlogo.png" alt="logo" />
                         </div>
-                        <p><span>Pagina Web para la empresa Codefend</span></p>
+                        <p><span>Website for the Codefend company</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">                          
                             <a className="btn-small" href="https://website-stage.codefend.com/" target="_blank">view page<i className="fa-regular fa-eye"></i></a>
