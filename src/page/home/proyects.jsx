@@ -16,7 +16,10 @@ const Proyects = () => {
                     <div className="proyect">
                         <div className="img-contain">
                             <div className="info">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                                <p>el proyecto mas completo que colaboré como front-end siendo uno de los desarrolladores principales. <br />
+                                   lanzado su primera versión donde mas adelante se integrará un sistema de chats, chat grupal, etc.
+                                   Tecnologias que aprendi y use en este proyecto son:
+                                </p>
                                 <div className="images">
                                     <img src="../assets/images/languages/react.png" alt="logo-react" />
                                     <img src="../assets/images/languages/materialui.png" alt="logo-materialui" />
@@ -41,7 +44,9 @@ const Proyects = () => {
                     <div className="proyect">
                         <div className="img-contain">               
                             <div className="info">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                                <p>Sitio Web que aun sigue en desarrollo usando tecnologias como "i18n" para la traducción entre el ingles y español <br />
+                                    tecnologias utilizadas:
+                                </p>
                                 <div className="images">
                                     <img src="../assets/images/languages/react.png" alt="logo-react" />
                                     <img src="../assets/images/languages/materialui.png" alt="logo-materialui" />
@@ -63,7 +68,9 @@ const Proyects = () => {
                     <div className="proyect">
                         <div className="img-contain">               
                             <div className="info">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quod harum alias nostrum accusantium quaerat officiis repellat esse sunt. Ratione iste repellendus officia ipsam voluptatem optio sit! Deserunt, optio officiis.</p>
+                                <p>Sitio web donde estoy desarrollando a partir de un diseño ya proporcionado por la empresa a traves de archivos PSD y Figma pero tambien aportando a la mejora y adaptabilidad del diseño a la web. <br />
+
+                                </p>
                                 <div className="images">
                                     <img src="../assets/images/languages/react.png" alt="logo-react" />
                                     <img src="../assets/images/languages/sass.png" alt="logo-sass" />

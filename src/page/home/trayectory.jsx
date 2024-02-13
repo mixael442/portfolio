@@ -114,7 +114,10 @@ const Trayectory = () => {
                             <li>
                                 <div className="circle" onClick={()=>handleInfoTrayectory(6)}/>
                                 <div className="info-trayectory fade-out">
-                                    <p>Desarrollé como trainee junto con un equipo la pagina oficial de SaludLab</p>
+                                    <p>Desarrollé como trainee junto con un equipo la pagina oficial de SaludLab <br />
+                                    pagina oficial: <a href="http://saludlab.com/">"http://saludlab.com/"</a>
+
+                                    </p>
                                 </div>
                                 <span><i className="fa-regular fa-calendar-days"></i> <b>2022</b></span>
                                 <h4>Web Developer</h4>

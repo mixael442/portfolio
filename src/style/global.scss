@@ -5,7 +5,8 @@
     --color-text-2-dark: #00768b;
     --color-primary: hsl(242, 19%, 5%);
     --color-secondary: #00d3f8;
-    --color-tertiary: #015d6d;
+    --color-tertiary: #026779;
+    --color-tertiary-dark: #003943;
 
     --padding-general: 0px 3vw;
     --border-radius-general: 10px;
@@ -286,7 +287,7 @@ section.trayectory{
             }
             .info-trayectory{
                 position: absolute;
-                background-color: #00768b;
+                background: linear-gradient(to top, var(--color-secondary),30%, var(--color-tertiary-dark) );
                 border-radius: var(--border-radius-general);
                 top:0;
                 left: 0;
@@ -418,11 +419,12 @@ section.proyects {
                     }
                     .info{
                         position: absolute;
+                        padding: 5px;
                         top: -123%;
                         left: 0;
-                        background: linear-gradient(to top, var(--color-secondary), var(--color-tertiary) );
-                        height: 110%;
-                        width: 106%;
+                        background: linear-gradient(to top, var(--color-tertiary), var(--color-tertiary-dark) );
+                        height: 105%;
+                        width: 104%;
                         margin-left: -3%;
                         border-radius: var(--border-radius-general);
                         transition: top 0.3s linear;
