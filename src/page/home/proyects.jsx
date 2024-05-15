@@ -61,7 +61,7 @@ const Proyects = () => {
                         <p><span>Website for the company Offensive Security</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">
-                            <a className="btn-small" href="https://offensivesecurityservices.com/" target="_blank">view page<i className="fa-regular fa-eye"></i></a>
+                            <a className="btn-small" href="http://theoffensivezone.com/" target="_blank">view page<i className="fa-regular fa-eye"></i></a>
                             <button onClick={()=>handleInfo(1)} className="btn-small more">more info<i className="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
