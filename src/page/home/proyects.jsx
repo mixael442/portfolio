@@ -84,7 +84,7 @@ const Proyects = () => {
                         <p><span>Website for the Codefend company</span></p>
                         {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur, exercitationem fugit doloremque tenetur aperiam magnam sunt eaque ut error nam quod, aspernatur cumque velit dolor amet! Fuga, veritatis perspiciatis?</p> */}
                         <div className="buttons">                          
-                            <a className="btn-small" href="https://website-stage.codefend.com/" target="_blank">view page<i className="fa-regular fa-eye"></i></a>
+                            <a className="btn-small" href="https://www.codefend.com/" target="_blank">view page<i className="fa-regular fa-eye"></i></a>
                             <button onClick={()=>handleInfo(2)} className="btn-small more">more info<i className="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
